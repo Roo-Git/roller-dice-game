@@ -25,7 +25,7 @@ btnRoll.addEventListener('click', function(){
     console.log(dice);
     // 2. Display dice:
     diceElement.classList.remove('hidden');
-    diceElement.src = `img/dice-${dice}.png`
+    diceElement.src = `.img/dice-${dice}.png`
     // 3. Check for rolled 1:
     if (dice !== 1){
         // Add dice to current score:
